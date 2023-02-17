@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p class="background"></p>
+  <main class="container">
+    <section class="section-mobile">
+    <div class="mobile">
+      <div class="mobile__top"></div>
+      <div class="mobile__header">
+        <span class="flecha derecha izquierda arriba abajo"></span>
+        <img id="mobile__header__photo" src="images/avatar.jpg" alt="photo perfil">
+        <h5 id="mobile__header__name">Samuel Green</h5>
+        <p id="mobile__header__conection">Available to Walk</p>
+        <div class="points_container">
+          <div class="point-one"></div>
+          <div class="point-two"></div>
+          <div class="point-tree"></div>
+        </div>  
+        
+      </div>
+
+      <div class="mobile__chat">
+        <div class="mobile__chat__bubble">
+          <p class="mobile__chat__bubble__text">That sounds great. I’d be happy to idscuss more.</p>
+        </div>
+        <div class="mobile__chat__bubble">
+          <p class="mobile__chat__bubble__text">Could you send over some pictures of your dog, please?</p>
+        </div>
+        <div class="image__chat__container">
+          <img src="images/dog-image-1.jpg" alt="dog1">
+          <img src="images/dog-image-2.jpg" alt="dog1">
+          <img src="images/dog-image-3.jpg" alt="dog1">
+        </div>
+        
+        <div class="mobile__chat__sending">
+          <div class="mobile__chat__bubble sending">
+            <p class="mobile__chat__bubble__text"> Here are a few pictures. She’s a happy girl!</p>
+          </div>
+          <div class="mobile__chat__bubble sending">
+            <p class="mobile__chat__bubble__text text-less">Can you make it?</p>
+          </div>         
+        </div>
+        <div class="mobile__chat__bubble">
+          <p class="mobile__chat__bubble__text text-less">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+        </div>
+
+        <!-- 
+         -->
+         <form class="form" action="#">
+          <div class="form__radio__container">
+            <div class="time-price-container">
+              <label class="form__title" for="thirty-minutes">
+                <input class="radio" type="radio" name="time" id="thirty-minutes">
+                30 minutes Walk 
+              </label>
+              <span class="form__price">$29</span>
+            </div>
+          
+          </div>
+          <div class="form__radio__container">
+            <div class="time-price-container">
+              <label class="form__title"  for="one-hour">
+                <input class="radio" type="radio" name="time" id="one-hour">
+                1 hour walk 
+              </label>
+              <span class="form__price">$49</span>
+            </div>
+            
+          </div>
+          
+          
+         </form>
+
+        <div class="input__message">
+          <input type="text" name="text" id="input-text" placeholder="Type a message…" />
+          <button id="button-submit" type="submit">
+            <p class="flecha-button derecha-button"></p>
+          </button>
+        </div>
+      </div> 
+    </div>
+  </section>
+    <section class="description">
+      <article class="descrition__article">
+        <h1 class="descrition__article__title">
+          Simple booking
+        </h1>
+        <p class="descrition__article__paragraph">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.
+
+      </article>
+    </section>
+    
+
+
+
+  </main>
+  <footer class="description">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Xcorpio</a>.
+    </div>
+</footer>
+  
+  
+
+  
+
+ 
+  
+
+</body>
+</html>
