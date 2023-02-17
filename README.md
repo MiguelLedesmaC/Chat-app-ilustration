@@ -9,7 +9,7 @@ También he utilizado estilos propios para darle ese toque al input radio, susti
 
 
 
-## Autor -
+## Autor 
 **Miguel Ledesma**
 
 ✔️[LinkedIn](https://www.linkedin.com/in/miguelledesmac)
