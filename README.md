@@ -16,7 +16,7 @@ También he utilizado estilos propios para darle ese toque al input radio, susti
 
 
 ## Ver ejemplo en vivo
-✔️[Demo](https://miguelledesmac.github.io/chat-app-css-illustration-master/index.html)
+✔️[Demo](https://miguelledesmac.github.io/Chat-app-ilustration/)
 
 ## Instalacion
 Este proyecto no necesita instalacion. simplemente abre la carpeta o haz doble click en el demo
